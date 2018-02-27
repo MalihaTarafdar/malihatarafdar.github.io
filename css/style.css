@@ -35,8 +35,9 @@ body, html {
   background-color: black;
 }
 
+/* hero image */
 .hero-img {
-  background-image: url(/Users/maliha/Documents/GitHub/malihatarafdar.github.io/img/altBackground2.jpg);
+  background-image: url(../img/altBackground2.jpg);
   height: 93%;
   background-position: center;
   background-repeat: no-repeat;
