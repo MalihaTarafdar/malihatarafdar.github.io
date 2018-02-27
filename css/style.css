@@ -23,8 +23,7 @@
 
 /* Change text highlight */
 ::selection {
-	background: #3DAEE9 !important;
-	color: #d3dae3 !important;
+	background: 	rgba(0, 179, 179, .6) !important;
 }
 
 /* background and hero image */
