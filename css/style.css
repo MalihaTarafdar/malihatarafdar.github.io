@@ -86,8 +86,6 @@ footer {
 }
 
 /* CSS media querries */
-@media screen and (min-width: 1100px) {
-	nav .navbar {
-		margin: 0 auto;
-	}
+@media (min-width: 700px) {
+    
 }
