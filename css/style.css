@@ -3,10 +3,10 @@
 
 /* Change scrollbar */
 ::-webkit-scrollbar {
-	width: 6px;
+	width: 8px;
 }
 ::-webkit-scrollbar-track {
-	background: #22252b;
+	background: gray;
 	-webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
 }
 ::-webkit-scrollbar-thumb {
@@ -36,7 +36,7 @@ body, html {
 
 /* hero image */
 .hero-img {
-  background-image: url(https://wallpapercave.com/wp/wp2037273.jpg);
+  background-image: url(../img/altBackground2.jpg);
   height: 93%;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,13 +58,36 @@ body, html {
   font-size: 70px;
 }
 
+/* navbar */
 nav .navbar {
   background-color: black;
 }
 
+.navbar-brand > span, nav > ul > li > a {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+nav > ul > li > a:hover, .navbar-brand:hover > #firstName {
+	color:cyan !important;
+}
+
+.navbar-brand:hover > #lastName {color:white !important;}
+
+/* footer */
 footer {
   text-align: center;
   color: white;
   background-color: #262626;
   padding: 10px;
+}
+
+/* CSS media querries */
+@media screen and (min-width: 1100px) {
+	nav .navbar {
+		margin: 0 auto;
+	}
 }
