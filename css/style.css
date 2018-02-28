@@ -1,5 +1,7 @@
 /* By Maliha Tarafdar */
-* {font-family: 'Titillium Web', sans-serif;}
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
 
 /* Change scrollbar */
 ::-webkit-scrollbar {
@@ -41,6 +43,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+	background-attachment: fixed;
   position: relative;
 }
 
@@ -59,8 +62,16 @@ body, html {
 }
 
 /* navbar */
-nav .navbar {
+.navbar {
   background-color: black;
+	/*position: sticky;
+	position: -webkit-sticky;
+	top: 0;*/
+}
+
+.navbar-brand {
+	padding: 0;
+	margin: 0;
 }
 
 .navbar-brand > span, nav > ul > li > a {
@@ -76,6 +87,22 @@ nav > ul > li > a:hover, .navbar-brand:hover > #firstName {
 }
 
 .navbar-brand:hover > #lastName {color:white !important;}
+
+/* sticky nav */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* content */
+.content {
+	background-image: url();
+}
 
 /* footer */
 footer {
