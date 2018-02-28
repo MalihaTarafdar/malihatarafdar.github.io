@@ -53,7 +53,7 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: cyan;
+  color: white;
   font-size: 25px;
 }
 
@@ -71,7 +71,7 @@ body, html {
 	margin: 0;
 }
 
-.navbar-brand > span, nav > ul > li > a {
+.hero-text > span, .navbar-brand > span, nav > ul > li > a {
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -79,11 +79,13 @@ body, html {
   transition:.5s;
 }
 
-nav > ul > li > a:hover, .navbar-brand:hover > #firstName {
+.hero-text:hover > .firstName, .navbar-brand:hover > .firstName, nav > ul > li > a:hover {
 	color:cyan !important;
 }
 
-.navbar-brand:hover > #lastName {color:white !important;}
+.hero-text:hover > .lastName, .navbar-brand:hover > .lastName {
+	color:white !important;
+}
 
 /* sticky nav */
 .sticky {
