@@ -1,3 +1,6 @@
+/* By Maliha Tarafdar */
+
+/* navbar sticky after scroll */
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
