@@ -128,18 +128,24 @@ body, html {
 }
 
 #cover {
-	height: 1940px;
+	height: 2000px;
 	width: 100%;
 	background-color: 	rgba(26, 26, 26, .5);
 	background-attachment: fixed;
+	padding-top: 100px;
 }
 
 .content {
-
+	color: white;
 }
 
 .content > h1 {
 	text-align: center;
+	color: cyan;
+}
+
+.content > p {
+	font-size: 22px;
 }
 
 /* footer */
