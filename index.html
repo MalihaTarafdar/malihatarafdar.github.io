@@ -27,24 +27,39 @@
     <!--navbar-->
     <nav id="navbar" class="sticky-top navbar navbar-toggleable navbar-inverse">
         <ul class="ml-auto navbar-nav">
-            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link" onclick="switchContent(event, 'Skills')">Skills</a></li>
             <div class="empty" style="width: 70px;"></div>
-            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link" onclick="switchContent(event, 'Projects')">Projects</a></li>
             <div class="empty" style="width: 100px;"></div>
         </ul>
         <a href="#" class="navbar-brand"><span class="firstName">Maliha </span><span class="lastName" style="color: cyan">Tarafdar</span></a>
         <ul class="mr-auto navbar-nav">
             <div style="width: 100px;"></div>
-            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link" onclick="switchContent(event, 'About')">About</a></li>
             <div class="empty" style="width: 70px;"></div>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link" onclick="switchContent(event, 'Contact')">Contact</a></li>
             <div class="empty" style="width: 10px;"></div>
         </ul>
     </nav>
 
     <!--content-->
-    <div class="content">
-      <div id="cover"></div>
+    <div class="container">
+      <div id="cover">
+
+        <div id="about" class="content">
+          <h1>About Me</h1>
+        </div>
+        <div id="skills" class="content">
+          <h1>My Skills</h1>
+        </div>
+        <div id="projects" class="content">
+          <h1>My Projects</h1>
+        </div>
+        <div id="contact" class="content">
+          <h1>Contact Me</h1>
+        </div>
+
+      </div>
     </div>
 
     <div class="empty" style="height: 500px;"></div>
