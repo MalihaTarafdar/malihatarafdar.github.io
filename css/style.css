@@ -1,4 +1,4 @@
-/* By Maliha Tarafdar */
+/* Maliha Tarafdar */
 
 /* font */
 * {font-family: 'Titillium Web', sans-serif;}
@@ -130,9 +130,11 @@ body, html {
 #cover {
 	height: 2000px;
 	width: 100%;
-	background-color: 	rgba(26, 26, 26, .5);
+	background-color: rgba(26, 26, 26, .5);
 	background-attachment: fixed;
 	padding-top: 100px;
+  padding: 0 0 0 40px;
+  margin-left: -15px;
 }
 
 .content {

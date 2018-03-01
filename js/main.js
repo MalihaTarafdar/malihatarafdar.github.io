@@ -1,12 +1,12 @@
-/* By Maliha Tarafdar */
+/* Maliha Tarafdar */
 
-/* navbar sticky after scroll */
-window.onscroll = function() {myFunction()};
+/* navbar becomes sticky after scroll */
+window.onscroll = function() {stickyNav()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function stickyNav() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
