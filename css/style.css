@@ -1,7 +1,9 @@
 /* Maliha Tarafdar */
 
-/* font */
-* {font-family: 'Titillium Web', sans-serif;}
+* {
+  font-family: 'Titillium Web', sans-serif;
+  cursor: url(../img/cursor.png), auto;
+}
 
 /* Change scrollbar */
 ::-webkit-scrollbar {
@@ -108,7 +110,7 @@ body, html {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 .sticky + .content {
@@ -162,6 +164,7 @@ body, html {
 
 .content > p {
 	font-size: 22px;
+  color: white;
 }
 
 /* Back to top scroll button */
