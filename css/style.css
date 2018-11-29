@@ -1,5 +1,3 @@
-/* Maliha Tarafdar */
-
 * {
   font-family: 'Titillium Web', sans-serif;
   cursor: url(../img/cursor.png), auto;
@@ -86,6 +84,7 @@ body, html {
 	margin: 0;
 }
 
+/* hero */
 .hero-text > span, .navbar-brand > span, nav > ul > li > a {
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -167,32 +166,34 @@ body, html {
   color: white;
 }
 
+
+
 /* Back to top scroll button */
 #scroll {
-    position:fixed;
-    right:10px;
-    bottom:10px;
-    cursor:pointer;
-    width:50px;
-    height:50px;
-    background-color:#3498db;
-    text-indent:-9999px;
-    display:none;
-    -webkit-border-radius:60px;
-    -moz-border-radius:60px;
-    border-radius:60px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
     z-index: 150;
 }
 #scroll span {
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-left:-8px;
-    margin-top:-12px;
-    height:0;
-    width:0;
-    border:8px solid transparent;
-    border-bottom-color:#ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
     z-index: 150;
 }
 #scroll:hover {
@@ -211,5 +212,5 @@ footer {
 
 /* CSS media querries */
 @media (min-width: 700px) {
-
+  /* TODO:  */
 }

@@ -1,5 +1,3 @@
-/* Maliha Tarafdar */
-
 /* navbar becomes sticky after scroll */
 window.onscroll = function() {stickyNav()};
 
@@ -13,7 +11,7 @@ function stickyNav() {
     navbar.classList.remove("sticky");
   }
 }
-
+ 
 /* switch content based on nav-link */
 function switchContent(evt, tabName) {
     var i, content, links;
