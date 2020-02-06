@@ -1,3 +1,3 @@
 # malihatarafdar.github.io
 
-My portfolio website. A collection of my most notable projects.
+My portfolio website showcasing a collection of my most notable projects.
