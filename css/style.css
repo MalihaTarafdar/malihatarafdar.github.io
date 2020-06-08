@@ -3,7 +3,7 @@
   cursor: url(../img/cursor.png), auto;
 }
 
-/* Change scrollbar */
+/* Scrollbar */
 ::-webkit-scrollbar {
     max-width: 10px !important;
     max-height: 10px !important;
@@ -41,7 +41,7 @@
 	background: rgba(0, 179, 179, .6) !important;
 }
 
-/* background and hero image */
+/* page background and hero image background */
 body, html {
   height: 100%;
   margin: 0;
@@ -166,8 +166,6 @@ body, html {
   color: white;
 }
 
-
-
 /* Back to top scroll button */
 #scroll {
     position: fixed;
@@ -212,5 +210,5 @@ footer {
 
 /* CSS media querries */
 @media (min-width: 700px) {
-  /* TODO:  */
+  /* TODO: make website responsive */
 }

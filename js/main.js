@@ -1,9 +1,10 @@
-/* navbar becomes sticky after scroll */
+// navbar becomes sticky after scroll
 window.onscroll = function() {stickyNav()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
+// makes nav bar sticky
 function stickyNav() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
@@ -12,7 +13,7 @@ function stickyNav() {
   }
 }
  
-/* switch content based on nav-link */
+// switch content based on nav-link
 function switchContent(evt, tabName) {
     var i, content, links;
     content = document.getElementsByClassName("content");
@@ -28,17 +29,17 @@ function switchContent(evt, tabName) {
 }
 document.getElementById("defaultOpen").click();
 
-/* Scroll to top button */
-$(document).ready(function(){
-    $(window).scroll(function(){
+// Scroll to top button
+$(document).ready(function() {
+    $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('#scroll').fadeIn();
         } else {
             $('#scroll').fadeOut();
         }
     });
-    $('#scroll').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 600);
+    $('#scroll').click(function() {
+        $("html, body").animate({scrollTop: 0}, 600);
         return false;
     });
 });
