@@ -1,91 +1,12 @@
-<!-- Site designed by Maliha Tarafdar -->
 <!DOCTYPE html>
-<html lang="en-US">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-		<title>Maliha Tarafdar</title>
-		<meta name="author" content="Maliha Tarafdar" />
-		<meta name="description" content="Personal website" />
-		<meta name="keywords" content="Maliha Tarafdar, portfolio, personal" />
-		<link rel="shortcut icon" type=image/x-icon href="favicon.ico" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
-		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-	</head>
-	<body>
-
-		<!--hero image-->
-		<div class="hero-img">
-			<div class="hero-text">
-				<h1 id="name"><span class="firstName">Maliha </span><span class="lastName" style="color: cyan">Tarafdar</span></h1>
-				<p style="color: gray">Aspiring Software Engineer</p>
-			</div>
-		</div>
-
-		<!--navbar-->
-		<nav id="navbar" class="sticky-top navbar navbar-toggleable navbar-inverse">
-				<ul class="ml-auto navbar-nav">
-						<li class="nav-item"> <!--skills-->
-							<a href="#skills" class="nav-link" onclick="switchContent(event, 'Skills')">Skills</a>
-						</li>
-						<div class="empty" style="width: 70px;"></div>
-						<li class="nav-item"> <!--projects-->
-							<a href="#projects" class="nav-link" onclick="switchContent(event, 'Projects')">Projects</a>
-						</li>
-						<div class="empty" style="width: 100px;"></div>
-				</ul>
-				<a href="#/" class="navbar-brand"><span class="firstName">Maliha </span><span class="lastName" style="color: cyan">Tarafdar</span></a>
-				<ul class="mr-auto navbar-nav">
-						<div class="empty" style="width: 100px;"></div>
-						<li class="nav-item"> <!--about-->
-							<a href="#about" id="defaultOpen" class="nav-link" onclick="switchContent(event, 'About')">About</a>
-						</li>
-						<div class="empty" style="width: 70px;"></div>
-						<li class="nav-item"> <!--contact-->
-							<a href="#contact" class="nav-link" onclick="switchContent(event, 'Contact')">Contact</a>
-						</li>
-						<div class="empty" style="width: 10px;"></div>
-				</ul>
-		</nav>
-
-		<!--content-->
-		<div class="container">
-			<div id="cover">
-
-				<div id="about" class="content">
-					<h1>About Me</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-
-				<div id="skills" class="content">
-					<h1>My Skills</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione esse, ut unde! Ad corrupti eius, exercitationem quae delectus sunt neque laudantium magni quo fugit debitis esse expedita, ipsum possimus maxime! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo, totam voluptatum delectus odio, quas nihil commodi perferendis incidunt aperiam impedit quisquam id consectetur adipisci deleniti! Perspiciatis nulla, similique eos.</p>
-				</div>
-
-				<br />
-				<div id="projects" class="content">
-					<h1>My Projects</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sit natus, delectus laborum, ipsam dolores! Tempora laboriosam necessitatibus adipisci dolorum, quam, consequuntur voluptates facere fugiat, quia, aliquam ex deserunt similique? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab harum ea, et quaerat, ipsum optio adipisci vero fugit, repudiandae delectus soluta consequatur illum voluptatem nulla pariatur dicta tenetur quam. Inventore.</p>
-				</div>
-
-				<div id="contact" class="content">
-					<h1>Contact Me</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo aperiam itaque placeat aliquid doloribus modi ea, non odit temporibus minima sit ex tempora beatae, exercitationem facilis magnam dolor? Nemo, iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, tenetur voluptates voluptatibus, similique enim ullam. Voluptatibus, doloribus. Impedit iusto pariatur optio vel molestiae modi deserunt voluptatum facilis veniam omnis, ratione.</p>
-				</div>
-			</div>
-		</div>
-
-		<!--back to top button-->
-		<a href="#" id="scroll" style="display: none;"><span></span></a>
-
-		<!--footer-->
-		<footer>&copy; 2020 Copyright <span style="color: #40bfbf">Maliha Tarafdar</span></footer>
-
-		<script src="js/main.js"></script>
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Maliha Tarafdar</title>
+</head>
+<body>
+	<h1>WIP</h1>
+	<p>Please come back later. Sorry for the inconvenience!</p>
+</body>
 </html>
